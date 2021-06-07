@@ -3,6 +3,8 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  - geopandas=0.8.1
+  - geopy=2.1.0
   - jupyterlab=3.0.14
   - pandas=1.2.4
   - plotly=4.14.3
