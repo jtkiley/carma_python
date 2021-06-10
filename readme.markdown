@@ -36,13 +36,12 @@ segment | topic
 1a | Python basics II
 1b | Data handling
 1c | Visualization
-2a | Planning and identifiers
+2a | Planning
 2b | Data retrieval I
 2c | Data retrieval II
 3a | Data retrieval III
 3b | Data retrieval IV
-3c | Data assembly
-
+3c | Data assembly and conclusion
 
 
 ## Materials
@@ -100,12 +99,11 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.
 **Note:** On my desktop, each command listed above takes between two and three minutes to complete, so give it time. For your reference, these instructions are adapted from the [plot.ly getting started](https://plot.ly/python/getting-started/) document.
 
 
-### Install TextBlob text corpora and spacy word models
+### Install TextBlob text corpora
 
 1. Open a terminal (on Windows, use the prompt labeled either "Anaconda Prompt" or "Anaconda (64-bit)" in the start menu).
 1. Activate the `carmapy` environment using the command `conda activate carmapy`.
 1. Install the corpora using the command `python -m textblob.download_corpora`. There may be warnings or errors that are not relevant for our purposes, but you should see a series of successful downloads.
-1. Install the spacy English models using the command `python -m spacy download en_core_web_lg`.
 
 
 ### (optional) Run intro notebook
