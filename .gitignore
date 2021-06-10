@@ -1,0 +1,11 @@
+# Output files
+*.pdf
+data/msft_pr_coding.csv
+
+# Slides
+*.zip
+*.key
+*.pptx
+
+# Python stuff
+.ipynb_checkpoints/
