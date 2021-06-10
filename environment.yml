@@ -9,8 +9,9 @@ dependencies:
   - jupyterlab=3.0.14
   - pandas=1.2.4
   - pandas-datareader=0.9.0
+  - pip
   - plotly=4.14.3
-  - pyarrow=3.0.0
+  - pyarrow=4.0.1
   - python=3.8
   - textblob=0.15.3
   - pip:
