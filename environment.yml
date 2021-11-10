@@ -1,4 +1,4 @@
-name: carmapytest
+name: carmapy
 channels:
   - conda-forge
   - defaults
