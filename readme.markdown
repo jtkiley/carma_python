@@ -1,4 +1,4 @@
-# CARMA Short Course 2021: Introduction to Python for Research
+# CARMA Short Course 2022: Introduction to Python for Research
 
 ## Overview
 
@@ -67,7 +67,7 @@ If you encounter issues, get as far as you can, and we will work through them in
 
 1. On the right (on Github), click "Releases".
 1. Find the release for your course (usually at the top), and click the link for "Source code (zip)" under the "Assets" heading to download a zip archive of the course materials. **Note:** this is also where the slides are located (usually uploaded the day before the course begins).
-1. Expand the zip archive, which will produce a folder (e.g., `carma_python-1.1.0`) with the course materials inside.
+1. Expand the zip archive, which will produce a folder (e.g., `carma_python-1.2.0`) with the course materials inside.
 1. Move this folder somewhere easy to find (e.g., your desktop) while the course is ongoing.
 
 
