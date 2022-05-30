@@ -67,13 +67,14 @@ If you encounter issues, get as far as you can, and we will work through them in
 
 1. On the right (on Github), click "Releases".
 1. Find the release for your course (usually at the top), and click the link for "Source code (zip)" under the "Assets" heading to download a zip archive of the course materials. **Note:** this is also where the slides are located (usually uploaded the day before the course begins).
-1. Expand the zip archive, which will produce a folder (e.g., `carma_python-1.2.0`) with the course materials inside.
+1. Expand the zip archive, which will produce a folder (e.g., `carma_python-1.3.0`) with the course materials inside.
 1. Move this folder somewhere easy to find (e.g., your desktop) while the course is ongoing.
 
 
 ### Install software
 
 1. Install [Anaconda, Python 3.9 version](https://www.anaconda.com/distribution/).
+1. (Windows only) The installer has an option labeled, "Add Anaconda to my PATH environment variable." I recommend that you check this option, despite the note that it is not recommended. Among other things, this makes the VS Code integration work better (see below).
 1. (experts-only alternative) Install miniconda instead of the GUI version. While there are direct download versions, you would typically use a package manager (e.g., brew on macOS, apt on Ubuntu).
 
 **Note:** If you have a new Apple Silicon Mac, the easiest thing to do is to follow the instructions above, which will install Anaconda using Rosetta 2 (see this [Anaconda blog post](https://www.anaconda.com/blog/apple-silicon-transition)). There is a native version available, though it does not yet have the Anaconda Navigator graphical user interface. That omission is fine once you know your way around, but it's helpful for learning.
@@ -117,8 +118,8 @@ I will generally do walkthroughs using VS Code for notebooks instead of the Jupy
 VS Code is an open-source programming text editor platform, developed principally by Microsoft, that works with many languages (including Python and R), and it has nice built-in Jupyter Notebook support.
 There are a number of conveniences that come with using Jupyter this way, so I suggest installing and using it instead of the web interface.
 
-1. Download and install [VS Code](https://code.visualstudio.com).\
-1. (optional) As time permits, do the built-in "Get Started with VS Code" walkthrough. It will give you an introduction to some of the nice features and customizability of VS Code.
+1. Download and install [VS Code](https://code.visualstudio.com).
+1. (optional) As time permits, do the built-in "Get Started with VS Code" walkthrough. It will give you an introduction to some of the helpful features and customizability of VS Code.
 
 
 ## About Jason
