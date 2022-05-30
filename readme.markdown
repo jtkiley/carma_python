@@ -73,10 +73,10 @@ If you encounter issues, get as far as you can, and we will work through them in
 
 ### Install software
 
-1. Install [Anaconda, Python 3.8 version](https://www.anaconda.com/distribution/).
+1. Install [Anaconda, Python 3.9 version](https://www.anaconda.com/distribution/).
 1. (experts-only alternative) Install miniconda instead of the GUI version. While there are direct download versions, you would typically use a package manager (e.g., brew on macOS, apt on Ubuntu).
 
-**Note:** If you have a new Apple Silicon Mac, the easiest thing to do is to follow the instructions above, which will install Anaconda using Rosetta 2 (see this [Anaconda blog post](https://www.anaconda.com/blog/apple-silicon-transition)). They're fantastic computers, though this is one area where the native software is taking a bit to catch up.
+**Note:** If you have a new Apple Silicon Mac, the easiest thing to do is to follow the instructions above, which will install Anaconda using Rosetta 2 (see this [Anaconda blog post](https://www.anaconda.com/blog/apple-silicon-transition)). There is a native version available, though it does not yet have the Anaconda Navigator graphical user interface. That omission is fine once you know your way around, but it's helpful for learning.
 
 
 ### Importing the Anaconda environment
@@ -85,8 +85,8 @@ If you encounter issues, get as far as you can, and we will work through them in
 1. On the left, click Environment.
 1. At the bottom of the resulting main window, click Import.
 1. In the resulting popup, click the folder icon, navigate to the `environment.yml` file, and click Open.
-1. Back in the import popup, the environment name should be filled in automatically from the file, `carmapy` in this case. Click Import.
-1. Wait for the packages for the environment to be downloaded and installed. This could take a few minutes.
+1. Back in the import popup, the environment name should be filled in automatically from the file, `carmapy` in this case. If not, the default is `environment`, and you can replace that with `carmapy`. Click Import.
+1. Wait for the packages for the environment to be downloaded and installed. This could take a several minutes.
 
 
 ### Install TextBlob text corpora
@@ -109,6 +109,16 @@ You can run the notebook that we will use in the first session as a test of whet
 1. On the left side of the Jupyter Lab interface, use the file browser to navigate to the location where you saved the `0a_intro.ipynb` notebook and double click it.
 1. Once it loads, click the "Kernel" menu in the menu bar (inside the Jupyter Lab interface), and then click "Restart Kernel and Run All Cells..."
 1. The notebook should run quickly, and you should not see errors. Note: the single most common issue with any import errors at the top is that you have not selected the environment in step 3 above. You need to do that before launching Jupyter Lab, and a subsequent change will not affect the already--running Jupyter Lab.
+
+
+### (optional) Install VS Code
+
+I will generally do walkthroughs using VS Code for notebooks instead of the Jupyter Lab interface.
+VS Code is an open-source programming text editor platform, developed principally by Microsoft, that works with many languages (including Python and R), and it has nice built-in Jupyter Notebook support.
+There are a number of conveniences that come with using Jupyter this way, so I suggest installing and using it instead of the web interface.
+
+1. Download and install [VS Code](https://code.visualstudio.com).\
+1. (optional) As time permits, do the built-in "Get Started with VS Code" walkthrough. It will give you an introduction to some of the nice features and customizability of VS Code.
 
 
 ## About Jason
