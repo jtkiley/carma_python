@@ -7,5 +7,8 @@ data/msft_pr_coding.csv
 *.key
 *.pptx
 
-# Python stuff
+# Python
 .ipynb_checkpoints/
+
+# Mac
+.DS_Store
