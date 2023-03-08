@@ -1,0 +1,2 @@
+[filter "clean-output-ipynb"]
+    clean = "jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to=notebook --stdin --stdout --log-level=ERROR"
