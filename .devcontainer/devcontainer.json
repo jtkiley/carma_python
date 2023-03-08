@@ -1,7 +1,8 @@
 {
-	"name": "carmapy ",
+	"name": "carmapy",
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
 
+	"runArgs": ["--name", "carmapy"],
 	"postCreateCommand": "zsh ./.devcontainer/post_create.sh",
 	"containerEnv": { "API_NYT": "${localEnv:API_NYT}",
 					  "WRDS_USER": "${localEnv:WRDS_USER}",
