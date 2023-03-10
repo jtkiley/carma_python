@@ -2,6 +2,11 @@ name: Test notebooks
 
 on: [push]
 
+env:
+  API_NYT: ${{ secrets.API_NYT }}
+  WRDS_USER: ${{ secrets.WRDS_USER }}
+  WRDS_PASS: ${{ secrets.WRDS_PASS }}
+
 jobs:
   build:
 
