@@ -29,3 +29,5 @@ jobs:
       - name: Test with pytest/nbmake
         run: |
           pytest --nbmake notebooks/*.ipynb
+      - name: Enforce clean notbooks
+        uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
