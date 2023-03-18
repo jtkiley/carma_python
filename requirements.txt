@@ -8,6 +8,7 @@ nbformat==5.7.3
 pandas==1.5.3
 pandas-datareader==0.10.0
 plotly==5.13.1
+pre-commit==3.2.0
 pyarrow==11.0.0
 pynytimes==0.9.0
 textblob==0.17.1
