@@ -31,3 +31,9 @@ jobs:
           pytest --nbmake notebooks/*.ipynb
       - name: Enforce clean notebooks
         uses: ResearchSoftwareActions/EnsureCleanNotebooksAction@1.1
+      - name: Check black formatting
+        uses: psf/black@stable
+        with:
+          options: "--check --verbose"
+          src: "./notebooks"
+          jupyter: true
