@@ -31,7 +31,7 @@ In most segments, we will briefly cover some concepts with slides, then we will 
 segment | topic
 ---|--------
 0a | Introduction
-0b | Setup, Anaconda, and Jupyter
+0b | Setup and Jupyter
 0c | Python basics I
 1a | Python basics II
 1b | Data handling
@@ -52,75 +52,60 @@ There is both a notebook and a slide deck for most segments.
 The slides are available in zip archives containing Keynote and Powerpoint versions in the releases section (on Github).
 Please note that the Keynote slides are (usually) the ones actually presented.
 
-Also, there is an `environment.yml` file for setting up your Anaconda environment, using the instructions below.
-
 
 ## Preparing for the course
 
 Before the first meeting, please complete the following.
 If you encounter issues, get as far as you can, and we will work through them in class.
 
-**Please note:** It is best to install (and work with) this software on a physical computer (i.e. not virtualized) that is not locked down with IT permissions.
+There are two alternative approaches (choose one):
+
+1. Use cloud-hosted Codespaces on Github. This is the easiest option, and the Github free account tier has more than enough time for the course.
+1. Install VS Code and Docker on your computer. This is also relatively easy and free.
 
 
-### Download materials
+### Github Codespaces
 
-1. On the right (on Github), click "Releases".
-1. Find the release for your course (usually at the top), and click the link for "Source code (zip)" under the "Assets" heading to download a zip archive of the course materials. **Note:** this is also where the slides are located (usually uploaded the day before the course begins).
-1. Expand the zip archive, which will produce a folder (e.g., `carma_python-1.5.0`) with the course materials inside.
-1. Move this folder somewhere easy to find (e.g., your desktop) while the course is ongoing.
+1. Go to <https://github.com>.
+1. Sign in with your Github account (or create one).
+1. Go to <https://github.com/jtkiley/carma_python>.
+1. In the upper right, click the "Fork" button.
+1. On the resulting cage, click "Create fork." After a few seconds, the page will refresh with your fork of the course repository.
+1. Click the green "Code" button.
+1. In the resulting popover, click the "Codespaces" tab, and then click the green "Create codespace on main" button.
+1. A new tab will open, and your codespace will start (it may take a couple of minutes the first time).
+1. One your codespace is started, click "Codespaces" in the bottom right.
+1. In the resulting menu at the center top of the page, click "Stop Current Codespace."
 
+**Important:** Codespaces, like many cloud services, are metered by time. When you are not actively using the Codespace, it is best to stop it. They will stop running after a period of inactivity (by default 30 minutes; see [here](https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-timeout-period-for-github-codespaces) for instructions to change it).
 
-### Install software
+Once your codespace has been created, you can return to it using the following procedure:
 
-1. Install [Anaconda, Python 3.9 version](https://www.anaconda.com/distribution/).
-1. (Windows only) The installer has an option labeled, "Add Anaconda to my PATH environment variable." I recommend that you check this option, despite the note that it is not recommended. Among other things, this makes the VS Code integration work better (see below).
-1. (experts-only alternative) Install miniconda instead of the GUI version. While there are direct download versions, you would typically use a package manager (e.g., brew on macOS, apt on Ubuntu).
-
-**Note:** If you have a new Apple Silicon Mac, the easiest thing to do is to follow the link above, and then click "Get Additional Installers."
-Then, choose the one labeled `64-Bit (M1) Graphical Installer`.
-
-
-### Importing the Anaconda environment
-
-1. Open the Anaconda Navigator app.
-1. On the left, click Environment.
-1. At the bottom of the resulting main window, click Import.
-1. In the resulting popup, click the folder icon, navigate to the `environment.yml` file, and click Open.
-1. Back in the import popup, the environment name should be filled in automatically from the file, `carmapy` in this case. If not, the default is `environment`, and you can replace that with `carmapy`. Click Import.
-1. Wait for the packages for the environment to be downloaded and installed. This could take a several minutes.
+1. Go to your fork of the course repository on Github.
+1. Click the green "Code" button.
+1. In the resulting popover, click the "Codespaces" tab.
+1. Click to select your codespace from the list (they usually get a two word random name).
 
 
-### Install TextBlob text corpora
-
-1. Open a terminal (on Windows, use the prompt labeled either "Anaconda Prompt" or "Anaconda (64-bit)" in the start menu).
-1. Activate the `carmapy` environment using the command `conda activate carmapy`.
-1. Install the corpora using the command `python -m textblob.download_corpora`. There may be warnings or errors that are not relevant for our purposes, but you should see a series of successful downloads.
-
-
-### (optional) Run intro notebook
-
-You can run the notebook that we will use in the first session as a test of whether the most important packages are working properly.
-
-
-1. Open Anaconda Navigator.
-1. Near the upper left of the main part of the window, find the control labeled "Applications on" followed by a drop down box (usually containing "base (root)").
-1. Click the dropdown and select `carmapy` which the environment you installed in the instructions.
-1. After a few seconds, the main window will refresh. Then, find "Jupyter Lab" and click the "Launch" button.
-1. A browser window will pop up, and the Jupyter Lab interface will load. Note: if you appear to have a blank page, make sure you are using a modern browser like Safari, Chrome, or Firefox as your default. Older versions of Microsoft's browsers (even on Windows 10) lack modern features, though the newest Microsoft Edge browser should be fine.
-1. On the left side of the Jupyter Lab interface, use the file browser to navigate to the location where you saved the `0a_intro.ipynb` notebook and double click it.
-1. Once it loads, click the "Kernel" menu in the menu bar (inside the Jupyter Lab interface), and then click "Restart Kernel and Run All Cells..."
-1. The notebook should run quickly, and you should not see errors. Note: the single most common issue with any import errors at the top is that you have not selected the environment in step 3 above. You need to do that before launching Jupyter Lab, and a subsequent change will not affect the already--running Jupyter Lab.
-
-
-### (optional, but highly recommended) Install VS Code
-
-I will generally do walkthroughs using VS Code for notebooks instead of the Jupyter Lab interface.
-VS Code is an open-source programming text editor platform, developed principally by Microsoft, that works with many languages (including Python and R), and it has nice built-in Jupyter Notebook support.
-There are a number of conveniences that come with using Jupyter this way, so I suggest installing and using it instead of the web interface.
+### VS Code and Docker (locally)
 
 1. Download and install [VS Code](https://code.visualstudio.com).
-1. (optional) As time permits, do the built-in "Get Started with VS Code" walkthrough. It will give you an introduction to some of the helpful features and customizability of VS Code.
+1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+1. Make sure Docker Desktop is running, or launch it if it is not. It typically stays open in the Mac menu bar or Windows system tray.
+1. Open VS Code on your computer.
+1. On the left side of the window, there is a vertical series of icons. Click the "Extensions" icon, which looks like four squares.
+1. In the search box at the top of the left pane with the text "Search Extension in Marketplace," search for "Remote Development".
+1. In the results below the search box, click "Remote Development."
+1. In the resulting tab on the right side of the VS Code window, click "Install."
+1. In the bottom left of the VS Code window, click the blue button that looks like `><` and has the hover text, "Open a Remote Window."
+1. In the resulting menu at the center top of the window, click "Clone Repository in Container Volume..."
+1. Paste in the URL for the course repository, `https://github.com/jtkiley/carma_python`, and then click "Clone git repository from URL."
+1. After a couple of minutes, your local container should be built, and you can close VS Code.
+
+Once your local container has been created, you can return to it using the following procedure:
+
+1. Open VS Code on your computer.
+1. On the Welcome tab, under the heading "Recent," click the "carma_python in a unique volume" link.
 
 
 ## About Jason
