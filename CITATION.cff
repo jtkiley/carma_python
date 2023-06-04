@@ -8,6 +8,10 @@ authors:
   - given-names: Jason
     family-names: Kiley
     orcid: 'https://orcid.org/0000-0001-7986-7800'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.8003201
+    description: Concept DOI.
 repository-code: 'https://github.com/jtkiley/carma_python'
 abstract: >-
   This short course focuses on the foundational skills of
