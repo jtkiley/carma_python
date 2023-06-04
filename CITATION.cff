@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: Introduction to Python for Research
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jason
+    family-names: Kiley
+    orcid: 'https://orcid.org/0000-0001-7986-7800'
+repository-code: 'https://github.com/jtkiley/carma_python'
+abstract: >-
+  This short course focuses on the foundational skills of
+  identifying, collecting, and preparing data using Python.
+keywords:
+  - research methods
+  - academic
+  - Python
+  - tutorial
+  - data science
+license: BSD-3-Clause
