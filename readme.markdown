@@ -1,5 +1,12 @@
 # CARMA Short Course 2023: Introduction to Python for Research
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8003201.svg)](https://doi.org/10.5281/zenodo.8003201)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![Test Notebooks](https://github.com/jtkiley/carma_python/actions/workflows/test_notebooks.yml/badge.svg
+)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
 ## Overview
 
 Python is a general purpose programming language that includes a robust ecosystem of data science tools.
