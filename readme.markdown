@@ -74,7 +74,7 @@ There are two alternative approaches (choose one):
 1. Click the green "Code" button.
 1. In the resulting popover, click the "Codespaces" tab, and then click the green "Create codespace on main" button.
 1. A new tab will open, and your codespace will start (it may take a couple of minutes the first time).
-1. One your codespace is started, click "Codespaces" in the bottom right.
+1. One your codespace is started, click "Codespaces" in the bottom left.
 1. In the resulting menu at the center top of the page, click "Stop Current Codespace."
 
 **Important:** Codespaces, like many cloud services, are metered by time. When you are not actively using the Codespace, it is best to stop it. They will stop running after a period of inactivity (by default 30 minutes; see [here](https://docs.github.com/en/codespaces/customizing-your-codespace/setting-your-timeout-period-for-github-codespaces) for instructions to change it).
