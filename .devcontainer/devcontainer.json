@@ -3,7 +3,10 @@
     "image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
     "customizations": {
         "vscode": {
-              "extensions": ["ms-toolsai.jupyter"]
+              "extensions": [
+                "ms-toolsai.jupyter",
+                "charliermarsh.ruff"
+            ]
         }
     },
     "runArgs": ["--name", "carmapy"],
