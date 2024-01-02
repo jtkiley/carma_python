@@ -1,4 +1,4 @@
-# CARMA Short Course 2023: Introduction to Python for Research
+# CARMA Short Course 2024: Introduction to Python for Research
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8003201.svg)](https://doi.org/10.5281/zenodo.8003201)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
@@ -29,8 +29,10 @@ In particular, no prior knowledge of Python is required, and we will cover a gen
 
 ## Schedule
 
-The course is divided into four sections, each with three 75 minute segments, with breaks between segments.
+The course is divided into three sections, each with four 75 minute segments, with breaks between segments.
 In most segments, we will briefly cover some concepts with slides, then we will walk through notebooks to see and experiment with code, and use breakout rooms to apply those concepts further.
+
+Note: This course has previously been scheduled with three segments over four days, and at least for now, I retain that numbering for consistency.
 
 
 ### Applied methods
