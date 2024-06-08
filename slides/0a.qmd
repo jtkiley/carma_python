@@ -1,0 +1,209 @@
+---
+title: "Introduction to Python for Research"
+subtitle: "0a: Introduction"
+author: "Jason T. Kiley"
+format:
+    revealjs:
+        theme: dark
+        css: _style.css
+        slide-number: true
+
+---
+
+##  {.center}
+
+::: r-fit-text
+[github.com/jtkiley](https://github.com/jtkiley/)
+:::
+
+## Related
+
+- CARMA 2020 (overlaps with this course): Introduction to Python and Content Analysis of Text. ([Github](https://github.com/jtkiley/2020_carma_python))
+- Seminar materials (overlaps with this course): Text Analysis: Planning to Publication. ([Github](https://github.com/jtkiley/text_seminar))
+- Text analysis and machine learning workshop at WU (Oct. 2018) and RSM (Oct. 2019).
+- AOM Big Data workshop with Tim Hannigan, Hovig Tchalian, and Laura Nelson. ([Github](https://github.com/jtkiley/curation_workshop))
+
+## Course Agenda
+
+- Tools: Python, packages and environments
+- Basics: Python syntax and conventions, Jupyter Notebooks
+- Data handling and project planning
+- Data gathering and assembly
+
+# Overview
+
+## Overview
+
+- What you really need to know about Python.
+- Resources for learning.
+- A brief R comparison.
+
+# What do I really need to know about Python?
+
+## Why Python?
+
+- Approachability: well-designed modern programming language that handles a lot for you.
+- Features: many things have been built already, and you simply "glue" them together.
+- Learning resources: wide popularity in academia and practice means that there are extensive resources.
+- Scalability: from your computer, to the cloud, to a computing cluster, you can use largely the same tools.
+
+## Python Fluency
+
+- [Basics]{style="color:lightblue;"}
+- [Data Preparation]{style="color:lightgreen;"}
+- [Good-enough Programming]{style="color:lightyellow;"}
+- [Software Engineering]{style="color:pink;"}
+
+## [Basics]{style="color:lightblue;"}
+
+- Skills
+    - Software: Python interpreter, Jupyter Notebooks, VS Code
+    - Variable types: strings, ints, floats
+    - Objects and methods: lists, dictionaries
+    - Packages: importing and installing
+    - Documentation: official and community
+- Time: 2-4 hours
+- Necessity: Largely unavoidable
+
+
+## [Data Preparation]{style="color:lightgreen;"}
+
+- Skills
+    - Software: pandas
+    - Reading data formats (built-in)
+    - Slicing, views, `df.loc[]`
+    - Operations on columns and rows
+    - Reshaping
+    - Merging and querying
+- Time: 1-2 days and ongoing
+- Necessity: Needed and high ROI
+
+
+## [Good-enough Programming]{style="color:lightyellow;"}
+
+- Skills
+    - Loops
+    - Writing functions
+    - Reading and writing files (the hard way)
+    - Throwing and handling exceptions
+    - Using additional packages
+    - End point: working, reusable script
+- Time: 1 week and ongoing; divisible
+- Necessity: Helpful and good ROI
+
+
+## [Software Engineering]{style="color:pink;"}
+
+- Skills
+    - Classes and inheritance\*
+    - Package development\*
+    - Version control\*
+    - Unit testing and continuous integration
+    - Cross-version support
+    - Open source contributions
+- Time: A lot
+- Necessity: Not at all; good for the field
+
+
+# What resources are available for learning?
+
+## Pandas documentation
+
+::: columns
+::: {.column width="50%" #vcenter}
+Comparison with Stata
+:::
+
+::: {.column width="50%" #vcenter}
+![](_img/0a_stata.png)
+:::
+:::
+
+::: footer
+See more: [pandas documentation](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_stata.html)
+:::
+
+## Stack Overflow
+
+::: columns
+::: {.column width="50%" #vcenter}
+Search for what you are trying to do, merging on multiple columns with different names, in this case.
+:::
+
+::: {.column width="50%" #vcenter}
+![](_img/0a_so.png)
+:::
+:::
+
+::: footer
+See more: [Stack Overflow](https://stackoverflow.com/questions/41815079/pandas-merge-join-two-data-frames-on-multiple-columns)
+:::
+
+## Python for Data Analysis
+
+::: columns
+::: {.column width="50%" #vcenter}
+Wes McKinney is the creator of pandas and other open source projects.
+:::
+
+::: {.column width="50%" #vcenter}
+![](_img/0a_book.png)
+:::
+:::
+
+::: footer
+For more: [Wes McKinney](https://wesmckinney.com/book/)
+:::
+
+
+## Other Resources
+
+- edX. Provides many courses that use or teach Python that are relevant for data work (free).
+- Self-study tracks from my seminar. Includes resources for data handling, data retrieval, machine learning.
+- YouTube. Has many content creators, covering Python, data science, and software development.
+
+# Python and R
+
+## What About R?
+
+- R is great overall, especially compared to a lot of commercial stats software.
+- Compared to Python, it is less general purpose, so some useful packages may not have analogues.
+- The syntax (from S in the 1970s) is sometimes quite arcane.
+- Best of both worlds:
+    - Gather and prep data in Python.
+    - If needed, use R for analyses.
+
+## Stack Overflow - Most Popular
+
+![](_img/0a_r.png)
+
+::: footer
+See more: [Stack Overflow](https://survey.stackoverflow.co/2023/#programming-scripting-and-markup-languages)
+:::
+
+## Stack Overflow - Most Desired
+
+![](_img/0a_r2.png)
+
+::: footer
+See more: [Stack Overflow](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
+:::
+
+# Getting Started
+
+## Getting Started
+
+- Two approaches (choose one):
+    - Github Codespaces (cloud)
+    - VS Code, Docker, local container
+- You'll see me use both.
+
+# Hands on
+
+## Summary
+
+- Using Python for data analysis is not exactly programming, and you already have much of the knowledge you need.
+- Capturing all of our work in code that runs is a best practice that promotes reproducibility, and that helps us most of all.
+- We will start using our container in the next segment, so make sure it is set up and ready (or ask for help).
+
+# Break

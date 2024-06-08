@@ -61,6 +61,8 @@ There is both a notebook and a slide deck for most segments.
 The slides are available in zip archives containing Keynote and Powerpoint versions in the releases section (on Github).
 Please note that the Keynote slides are (usually) the ones actually presented.
 
+**Note:** For June 2024, I am testing a [new slide technology](https://quarto.org/docs/presentations/revealjs/) for the first slide deck only, which is included in the slides folder. A full set of slides is available as described above.
+
 
 ## Preparing for the course
 
@@ -117,7 +119,7 @@ Once your local container has been created, you can return to it using the follo
 1. On the Welcome tab, under the heading "Recent," click the "carma_python in a unique volume" link.
 
 
-## API configuration
+## API credential configuration
 
 **Note:** I will refer to the configuration instructions below during the course, but you do not need to follow these when preparing for the course.
 

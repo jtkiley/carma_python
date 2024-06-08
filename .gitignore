@@ -12,3 +12,7 @@ data/msft_pr_coding.csv
 
 # Mac
 .DS_Store
+
+# Quarto
+*_files
+*.html
