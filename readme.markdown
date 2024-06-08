@@ -69,11 +69,11 @@ If you encounter issues, get as far as you can, and we will work through them in
 
 There are two alternative approaches (choose one):
 
-1. Use cloud-hosted Codespaces on Github. This is the easiest option, and the Github free account tier has more than enough time for the course.
+1. Use cloud-hosted Codespaces on Github (recommended). This is the easiest option, and the Github free account tier has more than enough time for the course.
 1. Install VS Code and Docker on your computer. This is also relatively easy and free.
 
 
-### Github Codespaces
+### Github Codespaces (recommended)
 
 1. Go to <https://github.com>.
 1. Sign in with your Github account (or create one).
@@ -115,6 +115,23 @@ Once your local container has been created, you can return to it using the follo
 
 1. Open VS Code on your computer.
 1. On the Welcome tab, under the heading "Recent," click the "carma_python in a unique volume" link.
+
+
+## API configuration
+
+**Note:** I will refer to the configuration instructions below during the course, but you do not need to follow these when preparing for the course.
+
+Later in the course, we will register for free API credentials.
+To follow best security practices with API keys and passwords, there is some configuration we need to do.
+It also makes using these credentials very convenient.
+
+There are different processes depending on where we are running code.
+
+1. Github Codespaces (recommended). [Github: Adding secrets for a repository](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository)
+1. Mac, Windows, and Linux. [OpenAI: Best Practices for API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)
+    - Follow the relevant instructions for your platform in point 4.
+    - We are using this as a general reference, so our environment variable names will be different from the one described here.
+    - For Windows, I suggest using option 2.
 
 
 ## About Jason
