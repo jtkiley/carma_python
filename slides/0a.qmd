@@ -147,7 +147,7 @@ Wes McKinney is the creator of pandas and other open source projects.
 :::
 
 ::: {.column width="50%" #vcenter}
-![](_img/0a_book.png)
+![](_img/0a_book.png){width="80%"}
 :::
 :::
 
