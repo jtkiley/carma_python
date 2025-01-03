@@ -1,9 +1,8 @@
-# CARMA Short Course 2024: Introduction to Python for Research
+# CARMA Short Course 2025: Introduction to Python for Research
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8003201.svg)](https://doi.org/10.5281/zenodo.8003201)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-![Test Notebooks](https://github.com/jtkiley/carma_python/actions/workflows/test_notebooks.yml/badge.svg
-)
+![Test Notebooks](https://github.com/jtkiley/carma_python/actions/workflows/test_notebooks.yml/badge.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 
@@ -61,7 +60,7 @@ There is both a notebook and a slide deck for most segments.
 The slides are available in zip archives containing Keynote and Powerpoint versions in the releases section (on Github).
 Please note that the Keynote slides are (usually) the ones actually presented.
 
-**Note:** For June 2024, I am testing a [new slide technology](https://quarto.org/docs/presentations/revealjs/) for the first slide deck only, which is included in the slides folder. A full set of slides is available as described above.
+**Note:** For January 2025, I am testing a [new slide technology](https://quarto.org/docs/presentations/revealjs/) for the first slide deck only, which is included in the slides folder. A full set of slides is available as described above.
 
 
 ## Preparing for the course
@@ -71,11 +70,11 @@ If you encounter issues, get as far as you can, and we will work through them in
 
 There are two alternative approaches (choose one):
 
-1. Use cloud-hosted Codespaces on Github (recommended). This is the easiest option, and the Github free account tier has more than enough time for the course.
+1. Use cloud-hosted Codespaces on Github (highly recommended). This is the easiest option, and the Github free account tier has more than enough time for the course.
 1. Install VS Code and Docker on your computer. This is also relatively easy and free.
 
 
-### Github Codespaces (recommended)
+### Github Codespaces (highly recommended)
 
 1. Go to <https://github.com>.
 1. Sign in with your Github account (or create one).
