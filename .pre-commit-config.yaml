@@ -5,12 +5,11 @@ repos:
     -   id: black
     -   id: black-jupyter
 -   repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.6.3
+    rev: 1.9.1
     hooks:
     -   id: nbqa-ruff
-        additional_dependencies: [ruff==0.0.256]
--   repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.0.256
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.9.10
     hooks:
     -   id: ruff
         args: [--exit-non-zero-on-fix]
