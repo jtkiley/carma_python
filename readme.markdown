@@ -60,7 +60,7 @@ There is both a notebook and a slide deck for most segments.
 The slides are available in zip archives containing Keynote and Powerpoint versions in the releases section (on Github).
 Please note that the Keynote slides are (usually) the ones actually presented.
 
-**Note:** For January 2025, I am testing a [new slide technology](https://quarto.org/docs/presentations/revealjs/) for the first slide deck only, which is included in the slides folder. A full set of slides is available as described above.
+**Note:** For June 2025, I am testing a [new slide technology](https://quarto.org/docs/presentations/revealjs/) for the first slide deck only, which is included in the slides folder. A full set of slides is available as described above.
 
 
 ## Preparing for the course
@@ -138,6 +138,6 @@ There are different processes depending on where we are running code.
 ## About Jason
 
 Jason T. Kiley is an Assistant Professor at Clemson University.
-His research examines the interplay of audience perceptions of firms, impression management, and their associations with outcomes, including recent publications in the Academy of Management Journal and Strategic Management Journal.
+His research examines the interplay of audience perceptions of firms, impression management, and their associations with outcomes, including recent publications in Journal of Management, Academy of Management Journal, and Strategic Management Journal.
 As part of his work, he works to advance the use of software to increase the range, efficiency, and rigor of conducting empirical research.
-He is a co-organizer of the annual AOM Content Analysis PDW, and his published and in-progress work often uses state-of-the-art content analysis techniques, including recent work with semantic text analysis and machine learning.
+He is a co-organizer of the annual AOM Content Analysis PDW, and his published and in-progress work often uses state-of-the-art content analysis techniques, including recent work with large language models.
