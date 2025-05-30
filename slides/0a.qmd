@@ -16,12 +16,14 @@ format:
 [github.com/jtkiley](https://github.com/jtkiley/)
 :::
 
+
 ## Related
 
 - CARMA 2020 (overlaps with this course): Introduction to Python and Content Analysis of Text. ([Github](https://github.com/jtkiley/2020_carma_python))
 - Seminar materials (overlaps with this course): Text Analysis: Planning to Publication. ([Github](https://github.com/jtkiley/text_seminar))
 - Text analysis and machine learning workshop at WU (Oct. 2018) and RSM (Oct. 2019).
 - AOM Big Data workshop with Tim Hannigan, Hovig Tchalian, and Laura Nelson. ([Github](https://github.com/jtkiley/curation_workshop))
+
 
 ## Course Agenda
 
@@ -30,6 +32,7 @@ format:
 - Data handling and project planning
 - Data gathering and assembly
 
+
 # Overview
 
 ## Overview
@@ -37,6 +40,7 @@ format:
 - What you really need to know about Python.
 - Resources for learning.
 - A brief R comparison.
+
 
 # What do I really need to know about Python?
 
@@ -47,12 +51,14 @@ format:
 - Learning resources: wide popularity in academia and practice means that there are extensive resources.
 - Scalability: from your computer, to the cloud, to a computing cluster, you can use largely the same tools.
 
+
 ## Python Fluency
 
 - [Basics]{style="color:lightblue;"}
 - [Data Preparation]{style="color:lightgreen;"}
 - [Good-enough Programming]{style="color:lightyellow;"}
 - [Software Engineering]{style="color:pink;"}
+
 
 ## [Basics]{style="color:lightblue;"}
 
@@ -123,21 +129,6 @@ Comparison with Stata
 See more: [pandas documentation](https://pandas.pydata.org/docs/getting_started/comparison/comparison_with_stata.html)
 :::
 
-## Stack Overflow
-
-::: columns
-::: {.column width="50%" #vcenter}
-Search for what you are trying to do, merging on multiple columns with different names, in this case.
-:::
-
-::: {.column width="50%" #vcenter}
-![](_img/0a_so.png)
-:::
-:::
-
-::: footer
-See more: [Stack Overflow](https://stackoverflow.com/questions/41815079/pandas-merge-join-two-data-frames-on-multiple-columns)
-:::
 
 ## Python for Data Analysis
 
@@ -156,11 +147,46 @@ For more: [Wes McKinney](https://wesmckinney.com/book/)
 :::
 
 
+## Large Language Models
+
+::: columns
+::: {.column width="50%" #vcenter}
+- Ask it to explain code or a concept.
+- Ask it to rewrite code to be more efficient or readable.
+- Give it code and an error message, and ask it to fix the code.
+- **Careful:** Don't undercut your learning. LLMs are best when you already know the topic.
+:::
+
+::: {.column width="50%" #vcenter}
+![](_img/0a_llm.png)
+:::
+:::
+
+
+## Stack Overflow
+
+::: columns
+::: {.column width="50%" #vcenter}
+- Search for what you are trying to do, merging on multiple columns with different names, in this case.
+- These kinds of sites are getting displaced by LLMs.
+:::
+
+::: {.column width="50%" #vcenter}
+![](_img/0a_so.png)
+:::
+:::
+
+::: footer
+See more: [Stack Overflow](https://stackoverflow.com/questions/41815079/pandas-merge-join-two-data-frames-on-multiple-columns)
+:::
+
+
 ## Other Resources
 
 - edX. Provides many courses that use or teach Python that are relevant for data work (free).
 - Self-study tracks from my seminar. Includes resources for data handling, data retrieval, machine learning.
 - YouTube. Has many content creators, covering Python, data science, and software development.
+
 
 # Python and R
 
@@ -173,6 +199,7 @@ For more: [Wes McKinney](https://wesmckinney.com/book/)
     - Gather and prep data in Python.
     - If needed, use R for analyses.
 
+
 ## Stack Overflow - Most Popular
 
 ![](_img/0a_r.png)
@@ -181,6 +208,7 @@ For more: [Wes McKinney](https://wesmckinney.com/book/)
 See more: [Stack Overflow](https://survey.stackoverflow.co/2023/#programming-scripting-and-markup-languages)
 :::
 
+
 ## Stack Overflow - Most Desired
 
 ![](_img/0a_r2.png)
@@ -188,6 +216,7 @@ See more: [Stack Overflow](https://survey.stackoverflow.co/2023/#programming-scr
 ::: footer
 See more: [Stack Overflow](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
 :::
+
 
 # Getting Started
 
@@ -198,6 +227,7 @@ See more: [Stack Overflow](https://survey.stackoverflow.co/2023/#section-admired
     - VS Code, Docker, local container
 - You'll see me use both.
 
+
 # Hands on
 
 ## Summary
@@ -205,5 +235,6 @@ See more: [Stack Overflow](https://survey.stackoverflow.co/2023/#section-admired
 - Using Python for data analysis is not exactly programming, and you already have much of the knowledge you need.
 - Capturing all of our work in code that runs is a best practice that promotes reproducibility, and that helps us most of all.
 - We will start using our container in the next segment, so make sure it is set up and ready (or ask for help).
+
 
 # Break
