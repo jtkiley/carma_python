@@ -1,0 +1,51 @@
+---
+title: "Introduction to Python for Research"
+subtitle: "Readings"
+author: "Jason T. Kiley"
+date: 2025-05-29
+date-format: long
+csl: "https://www.zotero.org/styles/journal-of-management"
+bibliography: references.bib
+format:
+    pdf:
+        mainfont: "Source Serif 4"
+        sansfont: "Source Serif 4"
+        monofont: "Source Code Pro"
+        fontsize: 12pt
+        linestretch: 1
+        pdf-engine: xelatex
+        geometry:
+            - margin=25mm
+
+---
+
+Python is a powerful programming language that is widely used in research, spanning levels, designs, disciplines, and specific methods.
+That broad reach and skill-orientation (cf. specific methods) is reflected in this reading list in that I aim to show applications of Python and thoughts about the broader role of programming in research.
+
+
+# Python in use
+
+My examples here tend to be text related, since that is what I do and also the main way Python originally became popular in organizational research.
+
+@. @doi:10.5465/amj.2013.0288: I used Python throughout this project, in a lot of the ways we discuss in this course.
+@. @doi:10.1177/01492063241313316: We used Python extensively to solve hard data challenges in this project, including gathering and analyzing with hundreds of thousands of press releases and millions of Tweets.
+@. @doi:10.5465/annals.2017.0099: Tim used Python for topic modeling is this project, which is among the earliest common use cases for Python in our field.
+@. @doi:10.1177/0049124117729703: Laura does really interesting work, and this paper is a cool example of using Python (together with R), and she provides code to reproduce the analysis [here](https://github.com/lknelson/computational-grounded-theory).
+
+
+# Python and open science
+
+@. @doi:10.1177/01492063221141861: This is an interesting editorial that discusses the opportunities and benefits of code and data sharing in organizational research.
+@. @doi:10.1177/01492063251315701: This paper focuses on authorship and, in particular, advances some ideas about how to think about authorship in the world where our research output may have multiple artifacts, including the paper itself and computational artifacts like code and data.
+
+
+# Python and data science reference
+
+@. @Lutz2025-zq: I originally learned Python with an earlier edition of this book, and I still like it for detailed coverage of language features. For our typical use, I would read with the following in mind.
+    - Don't get bogged down in Part V on Modules and Packages. It's good to build your intuition about how these work, but creating packages isn't what most researchers do.
+    - Skip Part VI on classes and OOP, Part VII on exceptions (though perhaps look at the basics and try/except), and Part VIII on advanced topics (the Unicode chapter may be helpful if you have issues with text data encodings).
+@. @McKinney2022-rd: This is a book about Pandas by its creator. I always find it interesting to read a creator's guide to their own package, because it often reveals the design philosophy and intended use cases.
+@. @kevinheaveyModernPolars: If you decide to use Polars, as we discuss at the end of the course, this is a good  introduction to Polars' design philosophy and how it differs from Pandas.
+
+
+# References
